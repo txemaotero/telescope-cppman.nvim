@@ -1,3 +1,5 @@
+---This file defines a simple jumplist stack to store the visited pages and
+---cursor positions and allow to jump back and forward.
 local M = {}
 
 ---@alias Jump { page_id: string, cursor: [integer, integer] }
